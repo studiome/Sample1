@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6JvE1zoCCpJbdH8sLv87zSo4P2YQWKdo/K/ur9ekBog24VO5jFqLE1EHtJNCDTay1eockXKj3E76Bpe589lfcQ==",
+  "dgSpecHash": "1ckoEvpeBqcrPKMYKI6HAmd0wA0qxAzudHB4ZtpqAsU3FuE8oUCTYYVB09EYKPojYjes50v+Zktd9ylxSOzpdA==",
   "success": true,
   "projectFilePath": "/Users/kmiyahara/garden/dotnet/Sample1/Client/Sample1.Client.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "/Users/kmiyahara/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/kmiyahara/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/kmiyahara/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/kmiyahara/.nuget/packages/microsoft.fast.components.fluentui/1.2.1/microsoft.fast.components.fluentui.1.2.1.nupkg.sha512",
     "/Users/kmiyahara/.nuget/packages/microsoft.jsinterop/6.0.4/microsoft.jsinterop.6.0.4.nupkg.sha512",
     "/Users/kmiyahara/.nuget/packages/microsoft.jsinterop.webassembly/6.0.4/microsoft.jsinterop.webassembly.6.0.4.nupkg.sha512",
     "/Users/kmiyahara/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

@@ -50,6 +50,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Microsoft.Fast.Components.FluentUI": {
+              "target": "Package",
+              "version": "[1.2.1, )"
             }
           },
           "imports": [

@@ -294,6 +294,24 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Fast.Components.FluentUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Fast.Components.FluentUI.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props": {}
+        }
+      },
       "Microsoft.JSInterop/6.0.4": {
         "type": "package",
         "compile": {
@@ -693,6 +711,24 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Fast.Components.FluentUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Fast.Components.FluentUI.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props": {}
         }
       },
       "Microsoft.JSInterop/6.0.4": {
@@ -1372,6 +1408,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Fast.Components.FluentUI/1.2.1": {
+      "sha512": "WaoqH0BA+mVsSI80wLJiKVOJPMo4nSUvZKeobIyCc1CLSTXoxKmVcXY/I/G9ETO/FL2SlhcbxyACViDZUaJqCw==",
+      "type": "package",
+      "path": "microsoft.fast.components.fluentui/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Microsoft.Fast.Components.FluentUI.props",
+        "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props",
+        "buildTransitive/Microsoft.Fast.Components.FluentUI.props",
+        "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll",
+        "microsoft.fast.components.fluentui.1.2.1.nupkg.sha512",
+        "microsoft.fast.components.fluentui.nuspec",
+        "staticwebassets/Microsoft.Fast.Components.FluentUI.lib.module.js"
+      ]
+    },
     "Microsoft.JSInterop/6.0.4": {
       "sha512": "ul/BI4XudxeR1JROdq0FnMTT1YAN74q2iGeeWAzabuYyFVHtxVa8j+cYE+0KphS0c0+JkSupKCQRjhZsDw5NUg==",
       "type": "package",
@@ -1568,6 +1622,7 @@
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.4",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.4",
+      "Microsoft.Fast.Components.FluentUI >= 1.2.1",
       "Sample1.Shared >= 1.0.0"
     ]
   },
@@ -1620,6 +1675,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.4, )"
+          },
+          "Microsoft.Fast.Components.FluentUI": {
+            "target": "Package",
+            "version": "[1.2.1, )"
           }
         },
         "imports": [
