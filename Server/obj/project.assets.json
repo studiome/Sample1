@@ -303,6 +303,24 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Fast.Components.FluentUI/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Fast.Components.FluentUI.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props": {}
+        }
+      },
       "Microsoft.JSInterop/6.0.4": {
         "type": "package",
         "compile": {
@@ -405,6 +423,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.4",
+          "Microsoft.Fast.Components.FluentUI": "1.2.1",
           "Sample1.Shared": "1.0.0"
         },
         "compile": {
@@ -899,6 +918,24 @@
         "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Fast.Components.FluentUI/1.2.1": {
+      "sha512": "WaoqH0BA+mVsSI80wLJiKVOJPMo4nSUvZKeobIyCc1CLSTXoxKmVcXY/I/G9ETO/FL2SlhcbxyACViDZUaJqCw==",
+      "type": "package",
+      "path": "microsoft.fast.components.fluentui/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Microsoft.Fast.Components.FluentUI.props",
+        "buildMultiTargeting/Microsoft.Fast.Components.FluentUI.props",
+        "buildTransitive/Microsoft.Fast.Components.FluentUI.props",
+        "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll",
+        "microsoft.fast.components.fluentui.1.2.1.nupkg.sha512",
+        "microsoft.fast.components.fluentui.nuspec",
+        "staticwebassets/Microsoft.Fast.Components.FluentUI.lib.module.js"
       ]
     },
     "Microsoft.JSInterop/6.0.4": {

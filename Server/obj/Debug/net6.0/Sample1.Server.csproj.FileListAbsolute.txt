@@ -45,3 +45,5 @@
 /Users/kmiyahara/garden/dotnet/Sample1/Server/obj/Debug/net6.0/Sample1.Server.pdb
 /Users/kmiyahara/garden/dotnet/Sample1/Server/obj/Debug/net6.0/Sample1.Server.genruntimeconfig.cache
 /Users/kmiyahara/garden/dotnet/Sample1/Server/obj/Debug/net6.0/ref/Sample1.Server.dll
+/Users/kmiyahara/garden/dotnet/Sample1/Server/bin/Debug/net6.0/Microsoft.Fast.Components.FluentUI.dll
+/Users/kmiyahara/garden/dotnet/Sample1/Server/obj/Debug/net6.0/jsmodules/jsmodules.build.manifest.json

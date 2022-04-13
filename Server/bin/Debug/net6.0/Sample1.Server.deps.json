@@ -181,6 +181,17 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
+      "Microsoft.Fast.Components.FluentUI/1.2.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Fast.Components.FluentUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.JSInterop/6.0.4": {
         "runtime": {
           "lib/net6.0/Microsoft.JSInterop.dll": {
@@ -228,6 +239,7 @@
       "Sample1.Client/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.4",
+          "Microsoft.Fast.Components.FluentUI": "1.2.1",
           "Sample1.Shared": "1.0.0"
         },
         "runtime": {
@@ -400,6 +412,13 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Fast.Components.FluentUI/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WaoqH0BA+mVsSI80wLJiKVOJPMo4nSUvZKeobIyCc1CLSTXoxKmVcXY/I/G9ETO/FL2SlhcbxyACViDZUaJqCw==",
+      "path": "microsoft.fast.components.fluentui/1.2.1",
+      "hashPath": "microsoft.fast.components.fluentui.1.2.1.nupkg.sha512"
     },
     "Microsoft.JSInterop/6.0.4": {
       "type": "package",

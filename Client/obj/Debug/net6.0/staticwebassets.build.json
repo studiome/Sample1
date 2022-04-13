@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qtc2hWXNFsGhdsyAg3NDJ1X61+b5veyPEV6nofIH/vM=",
+  "Hash": "k2Dr9cIH0N694Cr+WPrFFre+VbWDdrPL2wrfmVLwYoM=",
   "Source": "Sample1.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/kmiyahara/.nuget/packages/microsoft.fast.components.fluentui/1.2.1/staticwebassets/Microsoft.Fast.Components.FluentUI.lib.module.js",
+      "SourceId": "Microsoft.Fast.Components.FluentUI",
+      "SourceType": "Package",
+      "ContentRoot": "/Users/kmiyahara/.nuget/packages/microsoft.fast.components.fluentui/1.2.1/staticwebassets/",
+      "BasePath": "_content/Microsoft.Fast.Components.FluentUI",
+      "RelativePath": "Microsoft.Fast.Components.FluentUI.lib.module.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "JSModule",
+      "AssetTraitValue": "JSLibraryModule",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/kmiyahara/.nuget/packages/microsoft.fast.components.fluentui/1.2.1/staticwebassets/Microsoft.Fast.Components.FluentUI.lib.module.js"
+    },
     {
       "Identity": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json",
       "SourceId": "Sample1.Client",
@@ -525,6 +542,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/kmiyahara/.nuget/packages/microsoft.extensions.primitives/6.0.0/lib/net6.0/Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "Identity": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Fast.Components.FluentUI.dll",
+      "SourceId": "Sample1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Fast.Components.FluentUI.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/kmiyahara/.nuget/packages/microsoft.fast.components.fluentui/1.2.1/lib/net6.0/Microsoft.Fast.Components.FluentUI.dll"
     },
     {
       "Identity": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll",
@@ -3653,6 +3687,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.VisualC.dll"
+    },
+    {
+      "Identity": "/Users/kmiyahara/garden/dotnet/Sample1/Client/obj/Debug/net6.0/build-gz/1KB902pZ.gz",
+      "SourceId": "Sample1.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Fast.Components.FluentUI.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Fast.Components.FluentUI.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/kmiyahara/garden/dotnet/Sample1/Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Fast.Components.FluentUI.dll"
     },
     {
       "Identity": "/Users/kmiyahara/garden/dotnet/Sample1/Client/obj/Debug/net6.0/build-gz/1T6X+o6C.gz",
